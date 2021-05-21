@@ -108,14 +108,8 @@ export default {
 
         addNewCustomer(){
 
-            let newCustomer = {
-                id: this.newCustomerId,
-                firstName: this.newCustomerFirstName,
-                lastName: this.newCustomerlastName,
-                emial: this.newCustomerEmail,
-                
-            }
-            this.customers.push(newCustomer);
+            
+            this.customers.push(this.newCustomer);
             this.newCustomerId = 
             this.newCustomerFirstName = '';
             this.newCustomerlastName = '';
